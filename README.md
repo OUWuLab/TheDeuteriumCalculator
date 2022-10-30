@@ -15,6 +15,8 @@ If you already have Python installed you may skip this step. It is recommended t
 
 *The only change to the settings you need to make is checking the box which adds Python to the Path.*
 
+![Python Installation](https://user-images.githubusercontent.com/113057688/198900589-3bbd4764-30ff-4d0d-848c-157e9f187509.png)
+
 ## Package Installation
 Packages are premade code usable by other software. This program depends on a number of them which can all be installed by using a single command within the command prompt (Open using windows+r, type cmd):
 
