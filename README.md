@@ -24,15 +24,21 @@ Packages are premade code usable by other software. This program depends on a nu
 
 _**note: there are no numbers, any "l" character is the letter. It is recommended to copy paste the above line directly.**_
 
+![Package Installation](https://user-images.githubusercontent.com/113057688/198900629-00472f6c-420a-4a80-a988-c36f89b77cc3.png)
+
 ## mzML Creation
 The ProteoWizard tool package contains the msConvert tool which is used to change vendor file types to mzML files. At the 
 <a href=http://proteowizard.sourceforge.net/download.html>ProteoWizard Download Page</a> you can download this package in order to use msConvert.
+
+![mzML Creation](https://user-images.githubusercontent.com/113057688/198900659-440a4e3a-b4cf-491c-94c7-b4bc9a7e2286.png)
 
 ## Input Preparation
 Open the file named _**Parameters.py**_ or _**Parameters**_. One can use a text editor such as "Notepad" or an IDE such as PyCharm. Notepad comes installed on Windows PCs. This file is divided into four sections.
 
 In the first you change the input files to the names of your input files **(including the file extension e.g. .txt, .mzML)**.
 Leave the 'r' before the path to your input files. On Windows you can copy the path to a file by holding shift while right clicking the file then selecting "Copy as Path".
+
+![Input Preparation](https://user-images.githubusercontent.com/113057688/198900665-d18e496c-0ba4-4d6f-b0fe-33426697f12c.png)
 
 _**Identification mzML File-**_ The mzML file which you performed the database search on which found the sequences you intend to search.
 *This is not the experimental mzML(s). These will be added when the program is run.*
@@ -51,6 +57,8 @@ _**Protein Sequence File**_ This is a .txt file which simply contains the string
 ## Output Paths
 The second section is the output files. Here you can either give the path to the location of each output file or you can simply put the name of the file and it will be added to the working directory.
 *Once again, do not remove the r before the path*
+
+![Output Paths](https://user-images.githubusercontent.com/113057688/198900687-402cfd0e-6f25-49df-b7d8-63592265abf5.png)
 
 ## Parameter Selection
 In the third section are parameters you can change to tune your results. In detail these are:
@@ -92,6 +100,9 @@ Type `"python TheDeuteriumCalculator.py"`
 
 This will start the program.
 
+![Starting Software](https://user-images.githubusercontent.com/113057688/198900734-47880492-1815-49f8-ae3e-4cbe7767e9e8.png)
+
+
 ## Running Software
 Each time the program runs you will be prompted for a number of details on the program. They are:
 
@@ -106,6 +117,10 @@ At that point detailed outputs will be generated which contain information on ev
 
 Step two can either be selected immediately or the program may be exited allowing for manual editing of the data. This can be achieved by changing the intensity of any points that are incorrect to zero. 
 **If changes are made to the data, the program must be restarted before they can be recognized.** Step two will generate the final outputs, including summary data and the Woods' Plot. 
+
+![Running Software](https://user-images.githubusercontent.com/113057688/198900765-fee6a67b-3699-4f83-82a6-92fa9687dd27.png)
+
+![Running Software 2](https://user-images.githubusercontent.com/113057688/198900778-84d5c533-58f2-401c-97f9-61f2213b5a1a.png)
 
 ## Notes and Troubleshooting
 * Step one only needs to be completed once per experiment, unless user error is noticed such as incorrect selection of mzML files.
