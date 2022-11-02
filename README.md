@@ -5,7 +5,7 @@ Author: Thomas Welborn
 
 Organization: University of Oklahoma
 
-Version 1.0.0 
+Version 1.2.0 
 
 Last Update: January 9, 2020
 
