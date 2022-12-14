@@ -5,7 +5,7 @@ Author: Thomas Welborn
 
 Organization: University of Oklahoma
 
-Version 1.2.0 
+Version 1.3.0 
 
 Last Update: January 9, 2020
 
@@ -100,7 +100,7 @@ Type `"python TheDeuteriumCalculator.py"`
 
 This will start the program.
 
-![Starting Software](https://user-images.githubusercontent.com/113057688/198900734-47880492-1815-49f8-ae3e-4cbe7767e9e8.png)
+![image](https://user-images.githubusercontent.com/113057688/207710156-c318436c-2cf9-469c-840a-4844fc85b5e8.png)
 
 
 ## Running Software
@@ -118,9 +118,11 @@ At that point detailed outputs will be generated which contain information on ev
 Step two can either be selected immediately or the program may be exited allowing for manual editing of the data. This can be achieved by changing the intensity of any points that are incorrect to zero. 
 **If changes are made to the data, the program must be restarted before they can be recognized.** Step two will generate the final outputs, including summary data and the Woods' Plot. 
 
-![Running Software](https://user-images.githubusercontent.com/113057688/198900765-fee6a67b-3699-4f83-82a6-92fa9687dd27.png)
+![image](https://user-images.githubusercontent.com/113057688/207710217-beb2ff87-e9ae-4db2-a861-6236c6343d74.png)
 
-![Running Software 2](https://user-images.githubusercontent.com/113057688/198900778-84d5c533-58f2-401c-97f9-61f2213b5a1a.png)
+![image](https://user-images.githubusercontent.com/113057688/207710237-04a2dafe-2c84-4a00-878e-f2a5e6f5a6d5.png)
+
+![image](https://user-images.githubusercontent.com/113057688/207710251-1f54cd70-ef2c-411f-8ff0-dc3135067aa2.png)
 
 ## Notes and Troubleshooting
 * Step one only needs to be completed once per experiment, unless user error is noticed such as incorrect selection of mzML files.
